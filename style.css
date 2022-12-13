@@ -173,13 +173,16 @@ button.buttonstyle:hover{
     display: flex;
     justify-content: space-between;
 }
-.clicks .offers{
+.clicks .box{
+    padding: 45px 30px 30px 30px;
+    box-shadow: 0px 7px 29px rgba(46, 46, 47, 0.2);
+    cursor: pointer;
+    background-color: var(--white);
     width: 285px;
     min-height: 233px;
-    padding: 44px 27px 30px 27px;
-    box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.2);
-    cursor: pointer;
+    border: none;
 }
+
 .box .sectionreccomends{
     font-family: playfair;
     font-size: 24px;
